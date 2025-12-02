@@ -8,3 +8,28 @@ __pycache__/
 *.sqlite
 .env
 venv/
+
+# Operating System files
+.DS_Store
+
+# Python environment files
+__pycache__/
+*.pyc
+venv/
+.venv/
+.ipynb_checkpoints
+
+# Environment variables
+# DO NOT commit your actual .env file, only the template (.env.example)
+.env
+
+# Data and Notebook outputs
+/data/
+*.csv
+*.xlsx
+*.feather
+*.pkl
+
+# Logs and Model Outputs
+*.log
+/models/
